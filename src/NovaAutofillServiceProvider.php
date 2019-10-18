@@ -1,6 +1,6 @@
 <?php
 
-namespace ChinLeung\LaravelNovaAutofill;
+namespace ChinLeung\NovaAutofill;
 
 use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Http\Requests\NovaRequest;
