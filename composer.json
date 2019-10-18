@@ -1,0 +1,38 @@
+{
+    "name": "chinleung/nova-autofill",
+    "description": "Autofill values for Laravel Nova fields based on the parent model on creation.",
+    "homepage": "https://github.com/chinleung/nova-autofill",
+    "keywords": [
+        "laravel",
+        "nova",
+        "autofill"
+    ],
+    "authors": [
+        {
+            "name": "Chin Leung",
+            "email": "hello@chinleung.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2.0",
+        "laravel/nova": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChinLeung\\NovaAutofill\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ChinLeung\\NovaAutofill\\NovaAutofillServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
