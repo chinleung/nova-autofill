@@ -2,10 +2,11 @@
 
 namespace ChinLeung\NovaAutofill;
 
+use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
-class NovaAutofillServiceProvider
+class NovaAutofillServiceProvider extends ServiceProvider
 {
     /**
      * Boostrap the application by adding a macro to the fields.
